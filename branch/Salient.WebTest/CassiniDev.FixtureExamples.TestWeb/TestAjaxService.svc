@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CassiniDev.FixtureExamples.TestWeb.TestAjaxService" CodeBehind="TestAjaxService.svc.cs" %>

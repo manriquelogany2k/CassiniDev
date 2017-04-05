@@ -1,0 +1,5 @@
+C:\deb\CassiniDev - interim2\branch\v6\TestContent\AspNetApp\bin\AspNetApp.dll
+C:\deb\CassiniDev - interim2\branch\v6\TestContent\AspNetApp\bin\AspNetApp.pdb
+C:\deb\CassiniDev - interim2\branch\v6\TestContent\AspNetApp\obj\Debug\ResolveAssemblyReference.cache
+C:\deb\CassiniDev - interim2\branch\v6\TestContent\AspNetApp\obj\Debug\AspNetApp.dll
+C:\deb\CassiniDev - interim2\branch\v6\TestContent\AspNetApp\obj\Debug\AspNetApp.pdb

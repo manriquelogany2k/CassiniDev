@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="47695C1B-936D-4CAC-84B0-82E33FC704DC" ModuleId="CassiniDev.Lib.Net40" />
+  <Module PersistentId="E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9" ModuleId="CassiniDev.Lib.Net35" />
+  <Module PersistentId="AE690C8D-8E85-4838-ADEE-4424B9A947FF" ModuleId="CassiniDev.Lib.Net35.Tests" />
+  <Module PersistentId="FCBBEAB0-3FFE-496C-94A9-E7C713163721" ModuleId="AspNetApp" />
+</Modules>

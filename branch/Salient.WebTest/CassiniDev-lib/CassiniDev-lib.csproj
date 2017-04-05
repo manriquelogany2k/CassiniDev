@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AAD02EE-FE79-46BE-87EB-E3D2A376A043}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CassiniDev</RootNamespace>
+    <AssemblyName>CassiniDev-lib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\CassiniDev.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CassiniDev\Arguments.cs">
+      <Link>Arguments.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Cassini Source\ByteParser.cs">
+      <Link>Cassini Source\ByteParser.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Cassini Source\ByteString.cs">
+      <Link>Cassini Source\ByteString.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Cassini Source\Connection.cs">
+      <Link>Cassini Source\Connection.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Cassini Source\Host.cs">
+      <Link>Cassini Source\Host.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Cassini Source\Messages.cs">
+      <Link>Cassini Source\Messages.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Cassini Source\Request.cs">
+      <Link>Cassini Source\Request.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Cassini Source\Server.cs">
+      <Link>Cassini Source\Server.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\CommandLineParser\ArgumentAttribute.cs">
+      <Link>CommandLineParser\ArgumentAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\CommandLineParser\ArgumentsAttribute.cs">
+      <Link>CommandLineParser\ArgumentsAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\CommandLineParser\ArgumentType.cs">
+      <Link>CommandLineParser\ArgumentType.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\CommandLineParser\DefaultArgumentAttribute.cs">
+      <Link>CommandLineParser\DefaultArgumentAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\CommandLineParser\ErrorReporter.cs">
+      <Link>CommandLineParser\ErrorReporter.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\CommandLineParser\Parser.cs">
+      <Link>CommandLineParser\Parser.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Enums.cs">
+      <Link>Enums.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Exceptions.cs">
+      <Link>Exceptions.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Interfaces.cs">
+      <Link>Interfaces.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Presenter.cs">
+      <Link>Presenter.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Rules.cs">
+      <Link>Rules.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Server.cs">
+      <Link>Server.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\ServiceFactory.cs">
+      <Link>ServiceFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Testing\Fixture.cs">
+      <Link>Testing\Fixture.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Testing\HttpRequestHelper.cs">
+      <Link>Testing\HttpRequestHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Views\ConsoleView.cs">
+      <Link>Views\ConsoleView.cs</Link>
+    </Compile>
+    <Compile Include="..\CassiniDev\Views\FormsView.cs">
+      <Link>Views\FormsView.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\CassiniDev\Views\FormsView.designer.cs">
+      <Link>Views\FormsView.designer.cs</Link>
+      <DependentUpon>FormsView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\CassiniDev\Cassini Source\Cassini.ico">
+      <Link>Cassini Source\Cassini.ico</Link>
+    </Content>
+    <Content Include="..\CassiniDev\Ms-PL.htm">
+      <Link>Ms-PL.htm</Link>
+    </Content>
+    <Content Include="..\CassiniDev\ReadMe.htm">
+      <Link>ReadMe.htm</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\CassiniDev\Views\FormsView.resx">
+      <Link>Views\FormsView.resx</Link>
+      <DependentUpon>FormsView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)CassiniDev-lib.dll" "$(SolutionDir)bin\$(ProjectName)\$(ConfigurationName)\" /S /I /F /Y &lt;nul:
+xcopy "$(TargetDir)CassiniDev-lib.pdb" "$(SolutionDir)bin\$(ProjectName)\$(ConfigurationName)\" /S /I /F /Y &lt;nul:
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

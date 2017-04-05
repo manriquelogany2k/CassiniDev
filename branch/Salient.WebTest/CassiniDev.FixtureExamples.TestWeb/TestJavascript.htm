@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+    <script type="text/javascript">
+
+        function load() {
+            // event driven script cannot be confirmed yet as I am having
+            // trouble sinking the com events and this text node does not appear
+            // in the html of the document.
+            // it is possible that it is in the dom.
+
+
+            // split it to allow string search for result
+            var content = "this is some " + "text from javascript";
+            var text = document.createTextNode(content);
+            document.body.appendChild(text);
+        }
+    </script>
+</head>
+<body onload="load">
+<script type="text/javascript">
+    // inline script is executed - split string to enable simple indexOf on html to verify
+    document.write("HEY IM " + "IN A SCRIPT");
+</script>
+</body>
+</html>

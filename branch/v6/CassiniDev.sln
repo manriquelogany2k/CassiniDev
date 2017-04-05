@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassiniDev.Lib.Net40", "CassiniDev.Lib.Net40\CassiniDev.Lib.Net40.csproj", "{47695C1B-936D-4CAC-84B0-82E33FC704DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassiniDev.Lib.Net35", "CassiniDev.Lib.Net35\CassiniDev.Lib.Net35.csproj", "{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2CC0581-44E3-4495-8ABB-52B37BFDFE59}"
+	ProjectSection(SolutionItems) = preProject
+		noodles.txt = noodles.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassiniDev.Lib.Net35.Tests", "CassiniDev.Lib.Net35.Tests\CassiniDev.Lib.Net35.Tests.csproj", "{AE690C8D-8E85-4838-ADEE-4424B9A947FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{98F522C5-71D1-4175-ABED-342DE245D580}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\nuget.exe = .nuget\nuget.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestContent", "TestContent", "{5D61B254-4AE1-496D-AB1A-7D62698C0695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetApp", "TestContent\AspNetApp\AspNetApp.csproj", "{FCBBEAB0-3FFE-496C-94A9-E7C713163721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47695C1B-936D-4CAC-84B0-82E33FC704DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47695C1B-936D-4CAC-84B0-82E33FC704DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47695C1B-936D-4CAC-84B0-82E33FC704DC}.Debug|x86.ActiveCfg = Debug|x86
+		{47695C1B-936D-4CAC-84B0-82E33FC704DC}.Debug|x86.Build.0 = Debug|x86
+		{47695C1B-936D-4CAC-84B0-82E33FC704DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47695C1B-936D-4CAC-84B0-82E33FC704DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47695C1B-936D-4CAC-84B0-82E33FC704DC}.Release|x86.ActiveCfg = Release|x86
+		{47695C1B-936D-4CAC-84B0-82E33FC704DC}.Release|x86.Build.0 = Release|x86
+		{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}.Debug|x86.ActiveCfg = Debug|x86
+		{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}.Debug|x86.Build.0 = Debug|x86
+		{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}.Release|x86.ActiveCfg = Release|x86
+		{E4F4B9DC-F41C-4E3E-A630-DC7F425F61A9}.Release|x86.Build.0 = Release|x86
+		{AE690C8D-8E85-4838-ADEE-4424B9A947FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE690C8D-8E85-4838-ADEE-4424B9A947FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE690C8D-8E85-4838-ADEE-4424B9A947FF}.Debug|x86.ActiveCfg = Debug|x86
+		{AE690C8D-8E85-4838-ADEE-4424B9A947FF}.Debug|x86.Build.0 = Debug|x86
+		{AE690C8D-8E85-4838-ADEE-4424B9A947FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE690C8D-8E85-4838-ADEE-4424B9A947FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE690C8D-8E85-4838-ADEE-4424B9A947FF}.Release|x86.ActiveCfg = Release|x86
+		{AE690C8D-8E85-4838-ADEE-4424B9A947FF}.Release|x86.Build.0 = Release|x86
+		{FCBBEAB0-3FFE-496C-94A9-E7C713163721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBBEAB0-3FFE-496C-94A9-E7C713163721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBBEAB0-3FFE-496C-94A9-E7C713163721}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FCBBEAB0-3FFE-496C-94A9-E7C713163721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBBEAB0-3FFE-496C-94A9-E7C713163721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBBEAB0-3FFE-496C-94A9-E7C713163721}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

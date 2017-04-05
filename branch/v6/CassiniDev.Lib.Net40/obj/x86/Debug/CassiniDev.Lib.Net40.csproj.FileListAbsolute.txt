@@ -1,0 +1,5 @@
+C:\deb\CassiniDev - interim2\branch\v6\CassiniDev.Lib.Net40\bin\x86\Debug\CassiniDev.Lib.dll
+C:\deb\CassiniDev - interim2\branch\v6\CassiniDev.Lib.Net40\bin\x86\Debug\CassiniDev.Lib.pdb
+C:\deb\CassiniDev - interim2\branch\v6\CassiniDev.Lib.Net40\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\deb\CassiniDev - interim2\branch\v6\CassiniDev.Lib.Net40\obj\x86\Debug\CassiniDev.Lib.dll
+C:\deb\CassiniDev - interim2\branch\v6\CassiniDev.Lib.Net40\obj\x86\Debug\CassiniDev.Lib.pdb
